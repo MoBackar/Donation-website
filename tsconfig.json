@@ -1,0 +1,41 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"useDefineForClassFields": true,
+		"lib": ["ES2020", "DOM", "DOM.Iterable"],
+		"module": "ESNext",
+		"skipLibCheck": true,
+
+		/* Bundler mode */
+		"moduleResolution": "bundler",
+		"allowImportingTsExtensions": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx",
+
+		/* Linting */
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true
+	},
+	"include": [
+		"src",
+		"src/Components/shadcn/ui/button.tsx",
+		"src/Components/shadcn/ui/card.tsx",
+		"src/Components/shadcn/ui/form.tsx",
+		"src/Components/shadcn/ui/input.tsx",
+		"src/Components/shadcn/ui/label.tsx",
+		"src/Components/shadcn/ui/navigation-menu.tsx",
+		"src/Components/shadcn/ui/select.tsx",
+		"src/Components/shadcn/ui/sheet.tsx",
+		"src/Components/shadcn/ui/sonner.tsx",
+		"src/Components/shadcn/ui/table.tsx",
+		"src/Components/shadcn/ui/tabs.tsx",
+		"src/Components/shadcn/ui/toast.tsx",
+		"src/Components/shadcn/ui/use-toast.ts",
+		"src/Components/shadcn/ui/toaster.tsx"
+	],
+	"references": [{ "path": "./tsconfig.node.json" }]
+}
